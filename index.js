@@ -4,7 +4,7 @@ const app = express()
 app.get('/', (req, res) => {
   const date = new Date().toString()
   res.set('Cache-Control', 'public, max-age=31536000')
-  res.send(date)
+  res.send(`The time is ${date}`)
 })
 
 const port = process.env.PORT || 8080
