@@ -3,6 +3,7 @@
   "description": "Simple hello world sample in Node",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
