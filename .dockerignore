@@ -1,6 +1,7 @@
-Dockerfile
-.dockerignore
-node_modules
-npm-debug.log
-.git
-.gitignore
+# Ignore everything
+**
+
+# Allow files and directories
+!/src/**
+!/package.json
+!/package-lock.json
