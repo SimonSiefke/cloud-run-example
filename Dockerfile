@@ -6,6 +6,6 @@ COPY package.json package-lock.json ./
 
 RUN npm ci --prod
 
-COPY . ./
+COPY src ./src
 
-CMD [ "node", "index.js" ]
+CMD [ "node", "src/server.js" ]
